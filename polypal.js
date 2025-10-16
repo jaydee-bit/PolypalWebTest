@@ -4,8 +4,10 @@ function login(){
     let pass = document.getElementById("password").value;
 
     if (user !== "" && pass !== ""){
-        window.location.href = "getstarted.html";
+         
+    setTimeout(() => location.href = "getstarted.html", 3000); 
     }
+
     else{
 
     }
@@ -159,4 +161,5 @@ const flashcards = document.querySelectorAll('.flashcard');
 
 function toProfile(){
   location.href = "profile.html";
+
 }
