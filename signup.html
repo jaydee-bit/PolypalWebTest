@@ -13,8 +13,8 @@
         <form onsubmit="signup(); return false;" action="" method="post">
             <input id="email" type="email" placeholder="Email" class="input-box">
             <input id="username-signup" type="text" placeholder="Username" class="input-box">
-            <input id="password" type="password" placeholder="Password" class="input-box">
-            <input id="confirmpass" type="password" placeholder="Confirm password" class="input-box"><br><br>
+            <input id="password" type="password" placeholder="Password" class="input-box" minlength="8" maxlength="20" required>
+            <input id="confirmpass" type="password" placeholder="Confirm password" class="input-box" minlength="8" maxlength="20" required><br><br>
             <button type="submit" class="signup-homebtn">Sign Up</button><br>  
         </form>
     </div>
@@ -22,4 +22,5 @@
 </body>
 
 </html>
+
 
