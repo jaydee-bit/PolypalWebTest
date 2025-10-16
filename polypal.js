@@ -19,7 +19,7 @@ function signup(){
     let confpass = document.getElementById("confirmpass").value;
 
     if (email !== "" && user !== "" && pass !== "" && confpass !==""){
-        window.location.href = "getstarted.html";
+        setTimeout(() location.href = "login.html" , 3000);
     }
     else{
 
@@ -163,3 +163,4 @@ function toProfile(){
   location.href = "profile.html";
 
 }
+
